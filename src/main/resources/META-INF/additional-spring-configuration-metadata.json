@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "errormsg.generic",
+    "type": "java.lang.String",
+    "description": "A description for 'errormsg.generic'"
+  },
+  {
+    "name": "errormsg.auth",
+    "type": "java.lang.String",
+    "description": "A description for 'errormsg.auth'"
+  }
+]}

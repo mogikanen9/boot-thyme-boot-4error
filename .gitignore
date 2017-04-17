@@ -38,3 +38,7 @@ target/classes/templates/footer.html
 target/classes/templates/genericError.html
 
 target/classes/templates/header.html
+
+target/classes/META-INF/additional-spring-configuration-metadata.json
+
+target/classes/templates/error.html
