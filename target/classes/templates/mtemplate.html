@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+	<div th:fragment="logo">
+
+		<nav class="navbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">mogikanen9.github.io</a>
+				</div>
+				<ul class="nav navbar-nav">
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+
+	<div th:fragment="message">
+		<div class="alert alert-danger" th:text="${myMessage}"></div>
+	</div>
+
+	<div th:fragment="copy">
+		<nav class="navbar navbar-bottom">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<p class="navbar-text">Mogikanensoftware Support</p>
+				</div>
+				<p class="navbar-text">Phone: 1 416 021 1238 <br/>1 866 667 1122</p>
+				<p class="navbar-text">Email: support@mogikanensoftware.com</p>
+			</div>
+		</nav>
+	</div>
+
+</body>
+
+</html>
