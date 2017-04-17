@@ -30,3 +30,11 @@ target/classes/templates/index.html
 .classpath
 
 .project
+
+target/classes/templates/authorizationError.html
+
+target/classes/templates/footer.html
+
+target/classes/templates/genericError.html
+
+target/classes/templates/header.html

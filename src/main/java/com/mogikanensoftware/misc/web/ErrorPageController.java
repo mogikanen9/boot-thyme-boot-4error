@@ -13,4 +13,15 @@ public class ErrorPageController {
         model.addAttribute("myMessage", "Hello from controller!");
         return "index";
     }
+	
+	@RequestMapping("/genericError")
+    public String genericError(Model model) {
+        model.addAttribute("myMessage", "Generic Error!");
+        return "genericError";
+    }
+	@RequestMapping("/authError")
+    public String authError(Model model) {
+        model.addAttribute("myMessage", "Auth Error!");
+        return "authorizationError";
+    }
 }
