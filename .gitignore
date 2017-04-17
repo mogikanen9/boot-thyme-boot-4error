@@ -10,3 +10,35 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*.prefs
+
+.settings/org.eclipse.wst.common.project.facet.core.xml
+
+.springBeans
+
+target/classes/application.properties
+
+target/classes/META-INF/MANIFEST.MF
+
+target/classes/META-INF/maven/com.mogikanensoftware.misc/boot-thyme-boot-4error/pom.properties
+
+target/classes/META-INF/maven/com.mogikanensoftware.misc/boot-thyme-boot-4error/pom.xml
+
+target/classes/templates/index.html
+
+.classpath
+
+.project
+
+target/classes/templates/authorizationError.html
+
+target/classes/templates/footer.html
+
+target/classes/templates/genericError.html
+
+target/classes/templates/header.html
+
+target/classes/META-INF/additional-spring-configuration-metadata.json
+
+target/classes/templates/error.html
