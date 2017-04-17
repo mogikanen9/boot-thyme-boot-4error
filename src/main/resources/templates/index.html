@@ -13,12 +13,16 @@
 
 	<div class="container" th:include="mtemplate :: logo"></div>
 
+
 	<div class="container">
-		<div class="jumbotron">
-			<p th:text="${myMessage}" />
-			<a th:href="@{/genericError}">View Generic Error Page</a> <a
-				th:href="@{/authError}">View Auth Error Page</a>
-		</div>
+		<hr class="small" />
+		<p>
+			<a th:href="@{/genericError}">View Generic Error Page</a>
+		</p>
+		<p>
+			<a th:href="@{/authError}">View Auth Error Page</a>
+		</p>
+
 	</div>
 
 	<div class="container" th:include="mtemplate :: copy"></div>

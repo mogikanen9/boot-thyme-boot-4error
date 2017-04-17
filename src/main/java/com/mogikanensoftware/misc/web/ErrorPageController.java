@@ -16,12 +16,12 @@ public class ErrorPageController {
 	
 	@RequestMapping("/genericError")
     public String genericError(Model model) {
-        model.addAttribute("myMessage", "Generic Error!");
+        model.addAttribute("myMessage", "Ups! Somthing went wrong.");
         return "genericError";
     }
 	@RequestMapping("/authError")
     public String authError(Model model) {
-        model.addAttribute("myMessage", "Auth Error!");
+        model.addAttribute("myMessage", "Auth Error! Unfortunately you are not authorized to access the requested application.");
         return "authorizationError";
     }
 }
